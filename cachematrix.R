@@ -34,6 +34,6 @@ cacheSolve <- function(x, ...) {
   ans <- solve(mat, ...)
   #sets the value of the inverse in the cache
   x$setans(ans)
-  return(ans)
+ ans
   
 }
