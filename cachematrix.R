@@ -1,4 +1,5 @@
 ##set Matrix
+#changes to set a working commit
 
 makeCacheMatrix <- function(x = matrix()) {
   #var ans will be the inverse value
