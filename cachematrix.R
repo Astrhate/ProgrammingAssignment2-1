@@ -1,5 +1,5 @@
 ##set Matrix
-#changes to set a working commit
+#changes to set a final commit
 
 makeCacheMatrix <- function(x = matrix()) {
   #var ans will be the inverse value
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getans = getans)
 }
 
-#Getting the inverse of the original matrix inptu in 'x'
+#Getting the inverse of the original matrix input in 'x'
 cacheSolve <- function(x, ...) {
   ans <- x$getans()
   #if inverse has already been calculated
